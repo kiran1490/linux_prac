@@ -1,6 +1,7 @@
 # kbuild part of makefile
 ifneq ($(KERNELRELEASE),)
 obj-m :=  cdrv.o
+obj-m :=  cdrv_dynamic.o
 EXTRA_CFLAGS += -DDEBUG
 else
 
