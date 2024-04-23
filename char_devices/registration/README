@@ -1,1 +1,3 @@
-cdrv.c -- a simple character driver to demosntarte who to register the driver with static major and minor numbers and binding the fileoperations to the device driver file
+1. cdrv.c -- a simple character driver to demosntarte who to register the driver with static major and minor numbers and binding the fileoperations to the device driver file
+2. cdrv_dynamic.c -- generate the major and minor numbers dynamically
+3. cdrv_dynamic_two_minor_numbers.c -- configure the drivers for two minor numbers

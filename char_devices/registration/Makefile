@@ -2,6 +2,8 @@
 ifneq ($(KERNELRELEASE),)
 obj-m :=  cdrv.o
 obj-m :=  cdrv_dynamic.o
+obj-m :=  cdrv_dynamic_two_minor_nums.o
+obj-m :=  cdrv_automated_file_creation.o
 EXTRA_CFLAGS += -DDEBUG
 else
 
