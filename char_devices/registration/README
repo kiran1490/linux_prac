@@ -1,0 +1,1 @@
+cdrv.c -- a simple character driver to demosntarte who to register the driver with static major and minor numbers and binding the fileoperations to the device driver file
